@@ -1,0 +1,7 @@
+from myfastlib.speed import timer
+
+@timer
+def test():
+    sum(range(10_000_000))
+
+test()
