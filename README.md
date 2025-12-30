@@ -64,7 +64,7 @@ README.md
 
 📦 Установка
 
-(Если ты выложишь в PyPI — можно будет так:)
+pip install myfastlib==1.0.1
 
 pip install myfastlib
 
