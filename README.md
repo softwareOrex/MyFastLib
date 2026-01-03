@@ -1,7 +1,16 @@
 # MyFastLib
 ![Uploading 2025-12-25_17-55-41.png…]()
 
-Version 1.1.0
+Version 1.2.0
+
+Обновление ZIP архиватора 
+Пример использования: 
+
+myfast zip data data.zip
+myfast unzip data.zip out
+myfast tar logs logs.tar.gz
+myfast bench test.py
+
 
 🚀 MyFastLib — ультра-лёгкая библиотека для ускорения Python-кода
 
