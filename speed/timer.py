@@ -1,5 +1,6 @@
 import time
-from functools import wraps
+from functools
+import wraps
 
 def timer(func):
     @wraps(func)
@@ -10,3 +11,4 @@ def timer(func):
         print(f"[MyFastLib] {func.__name__} executed in {end - start:.6f}s")
         return result
     return wrapper
+
